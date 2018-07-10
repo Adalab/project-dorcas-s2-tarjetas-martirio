@@ -85,9 +85,6 @@ inputNombre.addEventListener("keyup", writeData);
 inputPuesto.addEventListener("keyup", writeData);
 
 //a parte de esto, modificar los data-id de los input y los id de los campos del preview de nombre y puesto
-var arrow = document.querySelector('.arrow-turn1');
-var arrowSecond = document.querySelector('.arrow-turn2');
-var arrowThird = document.querySelector('.arrow-turn3');
 var colapsables = document.querySelectorAll('.colapsable');
 
 var tituloColapsable = document.querySelectorAll('.titulo-colapsable');
